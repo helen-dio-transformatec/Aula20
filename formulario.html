@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <form action="./formulario.html">
+    </head>
+<body>
+<h1>Formulário de cadastro</h1>
+<table>
+
+<tr> 
+    <td> <lable for="Nome">Nome</lable> </td>
+    <td><input type="text" required="Nome"></td>
+</tr>
+<tr>
+<td><label for="Sobrenome">Sobrenome</label></td>    
+<td> <input type="text" required="Sobrenome"></td>
+</tr>
+
+<tr>
+<td> <label for="Endereço">Endereço</label></td>
+ <td> <textarea name="" id="" cols="30" rows="5"></textarea></td>
+</tr>
+
+<tr>
+<td><label for="Disciplina">Disciplina</label></td>
+
+ <td>
+     <input type="checkbox">Programação <br>
+     <input type="checkbox">Lógica <br>
+     <input type="checkbox">Algoritmos <br>
+     <input type="checkbox">Banco de dados <br>
+     <input type="checkbox">Mobile <br>
+    </td>
+
+</tr>
+<tr>
+<td> <label for="Gênero">Gênero</label></td>
+
+<td>
+<input type="radio">Masculino
+<input type="radio">Feminino
+<input type="radio">Não informar
+</td>
+
+<tr>
+<td> <label for="Idade">Idade</label></td>
+<td>
+    <select name="idade" id="idade">
+        <option value="">select</option>
+        <option value="Criança">Criança</option>
+        <option value="adulto">Adulto</option>
+        <option value="idoso">Idoso</option>
+    </select>
+</td>
+
+</tr>
+<tr>
+    <td>
+        <label for="fotodeperfil">Foto de perfil</label>
+
+    </td>
+    <td>
+        <input type="file" id="fotodeperfil" name="fotodeperfil" required="true">
+    </td>
+</tr>
+
+    <tr>
+        <td>
+            <button type="submit">Cadastro</button>
+
+            <button type="reset">limpar</button>
+        </td>
+    </tr>  
+
+</form>
+</body>
+</html>
